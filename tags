@@ -1,0 +1,109 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+KeyNotFoundException	TernaryNode.php	/^class KeyNotFoundException extends Exception {$/;"	c
+TernaryNode	TernaryNode.php	/^class TernaryNode {$/;"	c
+TernaryNodeMemcached	TernaryNode.php	/^class TernaryNodeMemcached extends TernaryNode {$/;"	c
+TernaryTree	TernaryTree.php	/^class TernaryTree {$/;"	c
+TreeCorruptException	TernaryTree.php	/^class TreeCorruptException extends Exception {$/;"	c
+__construct	TernaryNode.php	/^    public function __construct($node_id) {$/;"	f
+__construct	TernaryNode.php	/^    public function __construct() {$/;"	f
+__construct	TernaryTree.php	/^    public function __construct($caching = false, $read_only = false) {$/;"	f
+_do_cache	TernaryTree.php	/^	$this->_do_cache = $caching;$/;"	v
+_do_cache	TernaryTree.php	/^    protected $_do_cache;$/;"	v
+_numKeys	TernaryTree.php	/^	$this->_numKeys = 0;$/;"	v
+_numKeys	TernaryTree.php	/^    private $_numKeys;  \/\/ private since we cannot guarantee this will be valid when loaded from cache.$/;"	v
+_numNodes	TernaryTree.php	/^	$this->_numNodes = 0;$/;"	v
+_numNodes	TernaryTree.php	/^    private $_numNodes;$/;"	v
+_read_only	TernaryTree.php	/^	$this->_read_only = $read_only;$/;"	v
+_read_only	TernaryTree.php	/^    protected $_read_only;$/;"	v
+_root	TernaryTree.php	/^	    $this->_root = $root;$/;"	v
+_root	TernaryTree.php	/^    protected $_root;$/;"	v
+asArray	TernaryTree.php	/^    static function asArray(&$node, $current_key) {$/;"	f
+asArrayIter	TernaryTree.php	/^    static function asArrayIter(&$node, $current_key) {$/;"	f
+asArrayRecursive	TernaryTree.php	/^    static function asArrayRecursive(&$node, $current_key, &$out, $first = false) {$/;"	f
+build	TernaryTree.php	/^    public function build(&$key_values) {$/;"	f
+buildRecursive	TernaryTree.php	/^    private function buildRecursive(&$key_index, &$key_values, $start, $n) {$/;"	f
+cache_key	TernaryNode.php	/^		$cache_key = self::getCacheKey($this->left);$/;"	v
+cache_key	TernaryNode.php	/^		$cache_key = self::getCacheKey($this->middle);$/;"	v
+cache_key	TernaryNode.php	/^		$cache_key = self::getCacheKey($this->right);$/;"	v
+cache_key	TernaryNode.php	/^	$cache_key = self::getCacheKey($this->node_id);$/;"	v
+chars	TernaryTree.php	/^	$chars = str_split($string);$/;"	v
+comparison	TernaryTree.php	/^		$comparison = strcmp(current($chars), $node->keyChar);$/;"	v
+comparison	TernaryTree.php	/^	    $comparison = strcmp(current($key_chars), $node->keyChar);$/;"	v
+comparison	TernaryTree.php	/^	$comparison = strcmp(current($key_chars), $node->keyChar);$/;"	v
+delete	TernaryNode.php	/^    public function delete() {$/;"	f
+deleteCachedTree	TernaryTree.php	/^    static function deleteCachedTree($cache_key) {$/;"	f
+deleteFromCache	TernaryTree.php	/^    protected function deleteFromCache() {$/;"	f
+getCacheKey	TernaryNode.php	/^    static function getCacheKey($node_id) {$/;"	f
+getCachedTree	TernaryTree.php	/^    static function getCachedTree($cache_key) {$/;"	f
+getLeftNode	TernaryNode.php	/^    public function &getLeftNode() {$/;"	f
+getMiddleNode	TernaryNode.php	/^    public function &getMiddleNode() {$/;"	f
+getRightNode	TernaryNode.php	/^    public function &getRightNode() {$/;"	f
+hasLeftNode	TernaryNode.php	/^    public function hasLeftNode() {$/;"	f
+hasMiddleNode	TernaryNode.php	/^    public function hasMiddleNode() {$/;"	f
+hasRightNode	TernaryNode.php	/^    public function hasRightNode() {$/;"	f
+insert	TernaryTree.php	/^    public function insert(&$key, &$value) {$/;"	f
+insertIterative	TernaryTree.php	/^    public function insertIterative(&$key_chars, &$value) {$/;"	f
+insertRecursive	TernaryTree.php	/^    private function insertRecursive(&$node, &$key_chars, &$value) {$/;"	f
+isNullNode	TernaryNode.php	/^    public static function isNullNode($node) {$/;"	f
+key	TernaryTree.php	/^	$key = $key_index[$start + $mid];$/;"	v
+keyChar	TernaryNode.php	/^    public $keyChar;$/;"	v
+key_chars	TernaryTree.php	/^	$key_chars = str_split($key);$/;"	v
+key_index	TernaryTree.php	/^	$key_index = array_keys($key_values);$/;"	v
+keystack	TernaryTree.php	/^	$keystack = array();$/;"	v
+left	TernaryNode.php	/^		$left = IcMemcache::getInstance()->get($cache_key);$/;"	v
+left	TernaryNode.php	/^		$this->left = $left;$/;"	v
+left	TernaryNode.php	/^	    $this->left = $this->left->node_id;$/;"	v
+left	TernaryNode.php	/^	    $this->left = self::NO_NODE;$/;"	v
+left	TernaryNode.php	/^	$left = $this->left;$/;"	v
+left	TernaryNode.php	/^	$this->left = $left;$/;"	v
+left	TernaryNode.php	/^	$this->left = self::NO_NODE;$/;"	v
+left	TernaryNode.php	/^    protected $left;$/;"	v
+loadFromCache	TernaryTree.php	/^    protected function loadFromCache($cache_key) {$/;"	f
+mid	TernaryTree.php	/^	$mid = $n >> 1;  \/\/much faster integer division by 2, PHP defaults division to float$/;"	v
+middle	TernaryNode.php	/^		$middle = IcMemcache::getInstance()->get($cache_key);$/;"	v
+middle	TernaryNode.php	/^		$this->middle = $middle;$/;"	v
+middle	TernaryNode.php	/^	    $this->middle = $this->middle->node_id;$/;"	v
+middle	TernaryNode.php	/^	    $this->middle = self::NO_NODE;$/;"	v
+middle	TernaryNode.php	/^	$middle = $this->middle;$/;"	v
+middle	TernaryNode.php	/^	$this->middle = $middle;$/;"	v
+middle	TernaryNode.php	/^	$this->middle = self::NO_NODE;$/;"	v
+middle	TernaryNode.php	/^    protected $middle;$/;"	v
+node	TernaryTree.php	/^		    $node = &$node->getLeftNode();$/;"	v
+node	TernaryTree.php	/^		    $node = &$node->getMiddleNode();$/;"	v
+node	TernaryTree.php	/^		    $node = &$node->getRightNode();$/;"	v
+node	TernaryTree.php	/^		$node = $this->_do_cache ? new TernaryNodeMemcached($this->_numNodes) : new TernaryNode();$/;"	v
+node	TernaryTree.php	/^		$node = &$node->getLeftNode();$/;"	v
+node	TernaryTree.php	/^		$node = &$node->getMiddleNode();$/;"	v
+node	TernaryTree.php	/^		$node = &$node->getRightNode();$/;"	v
+node	TernaryTree.php	/^	    $node = array_pop($stack);$/;"	v
+node	TernaryTree.php	/^	$node = $this->_root;$/;"	v
+node	TernaryTree.php	/^	$node = &$this->_root;$/;"	v
+node_id	TernaryNode.php	/^	$this->node_id = $node_id;$/;"	v
+node_id	TernaryNode.php	/^    public $node_id;$/;"	v
+out	TernaryTree.php	/^	$out = array();$/;"	v
+output	TernaryTree.php	/^	$output = array();$/;"	v
+prefixSearch	TernaryTree.php	/^    public function prefixSearch($string) {$/;"	f
+right	TernaryNode.php	/^		$right = IcMemcache::getInstance()->get($cache_key);$/;"	v
+right	TernaryNode.php	/^		$this->right = $right;$/;"	v
+right	TernaryNode.php	/^	    $this->right = $this->right->node_id;$/;"	v
+right	TernaryNode.php	/^	    $this->right = self::NO_NODE;$/;"	v
+right	TernaryNode.php	/^	$right = $this->right;$/;"	v
+right	TernaryNode.php	/^	$this->right = $right;$/;"	v
+right	TernaryNode.php	/^	$this->right = self::NO_NODE;$/;"	v
+right	TernaryNode.php	/^    protected $right;$/;"	v
+root	TernaryTree.php	/^	$root = IcMemcache::getInstance()->get($cache_key);$/;"	v
+save	TernaryNode.php	/^    public function save() {$/;"	f
+saveToCache	TernaryTree.php	/^    protected function saveToCache() {$/;"	f
+stack	TernaryTree.php	/^	$stack = array();$/;"	v
+test_dict	AllWordsTest.php	/^$test_dict = array();$/;"	v
+traverseNodeRecursive	TernaryTree.php	/^    static function traverseNodeRecursive(&$node, $onvisit_callback, $order = self::POST_ORDER) {$/;"	f
+traverseTree	TernaryTree.php	/^    public function traverseTree($order, $onvisit_callback) {$/;"	f
+tree	AllWordsTest.php	/^$tree = new TernaryTree(true);$/;"	v
+tree	TernaryTree.php	/^	$tree = new TernaryTree(false, true);$/;"	v
+value	TernaryNode.php	/^    public $value;$/;"	v
+words	AllWordsTest.php	/^$words = file('\/usr\/share\/dict\/words', FILE_IGNORE_NEW_LINES);$/;"	v
